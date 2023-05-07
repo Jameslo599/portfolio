@@ -150,4 +150,65 @@
 			}
 		});
 
+    // Fade in.
+		$('.fadeIn').scrollex({
+			top:		'30vh',
+			bottom:		'30vh',
+			delay:		25,
+			initialize:	function() {
+				$(this).addClass('is-inactive');
+			},
+			terminate:	function() {
+				$(this).removeClass('is-inactive');
+			},
+			enter:		function() {
+				$(this).removeClass('is-inactive');
+			}
+		});
+    // Fade in from left.
+		$('.fadeInLeft').scrollex({
+			top:		'30vh',
+			bottom:		'30vh',
+			delay:		25,
+			initialize:	function() {
+				$(this).addClass('is-inactive-left');
+			},
+			terminate:	function() {
+				$(this).removeClass('is-inactive-left');
+			},
+			enter:		function() {
+				$(this).removeClass('is-inactive-left');
+			}
+		});
+    // Fade in from bottom.
+		$('.fadeInBot').scrollex({
+			top:		'30vh',
+			bottom:		'30vh',
+			delay:		25,
+			initialize:	function() {
+				$(this).addClass('is-inactive-bottom');
+			},
+			terminate:	function() {
+				$(this).removeClass('is-inactive-bottom');
+			},
+			enter:		function() {
+				$(this).removeClass('is-inactive-bottom');
+			}
+		});
+    // Fade in without transform.
+		$('.fadeInOnly').scrollex({
+			top:		'30vh',
+			bottom:		'30vh',
+			delay:		25,
+			initialize:	function() {
+				$(this).addClass('is-inactive-passive');
+			},
+			terminate:	function() {
+				$(this).removeClass('is-inactive-passive');
+			},
+			enter:		function() {
+				$(this).removeClass('is-inactive-passive');
+			}
+		});
+
 })(jQuery);

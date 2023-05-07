@@ -67,6 +67,56 @@ input, select, textarea {
 }
 
 /* Custom code */
+.fadeIn {
+    -moz-transition: opacity 0.5s ease-out, -moz-transform 0.5s ease-out;
+	-webkit-transition: opacity 0.5s ease-out, -webkit-transform 0.5s ease-out;
+	-ms-transition: opacity 0.5s ease-out, -ms-transform 0.5s ease-out;
+	transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+.fadeInLeft {
+    -moz-transition: opacity 0.5s ease-out, -moz-transform 0.5s ease-out;
+	-webkit-transition: opacity 0.5s ease-out, -webkit-transform 0.5s ease-out;
+	-ms-transition: opacity 0.5s ease-out, -ms-transform 0.5s ease-out;
+	transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+.fadeInBot {
+    -moz-transition: opacity 0.5s ease-out, -moz-transform 0.5s ease-out;
+	-webkit-transition: opacity 0.5s ease-out, -webkit-transform 0.5s ease-out;
+	-ms-transition: opacity 0.5s ease-out, -ms-transform 0.5s ease-out;
+	transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+.fadeInOnly {
+    -moz-transition: opacity 0.5s ease-out, -moz-transform 0.5s ease-out;
+	-webkit-transition: opacity 0.5s ease-out, -webkit-transform 0.5s ease-out;
+	-ms-transition: opacity 0.5s ease-out, -ms-transform 0.5s ease-out;
+	transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+.is-inactive {
+    -moz-transform: translateX(2rem);
+	-webkit-transform: translateX(2rem);
+	-ms-transform: translateX(2rem);
+	transform: translateX(2rem);
+	opacity: 0 !important;
+}
+.is-inactive-left {
+    -moz-transform: translateX(-2rem);
+	-webkit-transform: translateX(-2rem);
+	-ms-transform: translateX(-2rem);
+	transform: translateX(-2rem);
+	opacity: 0 !important;
+}
+.is-inactive-bottom {
+    -moz-transform: translateY(2rem);
+	-webkit-transform: translateY(2rem);
+	-ms-transform: translateY(2rem);
+	transform: translateY(2rem);
+	opacity: 0 !important;
+}
+.is-inactive-passive {
+	opacity: 0 !important;
+}
+
 .logo{
     width: 200px;
     vertical-align: middle;
@@ -3121,6 +3171,35 @@ input, select, textarea {
 				margin: 1em 2em 1em 0;
 				width: calc(50% - 1em);
 			}
+
+            .is-inactive {
+                -moz-transform: none;
+				-webkit-transform: none;
+				-ms-transform: none;
+				transform: none;
+				opacity: 0;
+            }
+            .is-inactive-left {
+                -moz-transform: none;
+				-webkit-transform: none;
+				-ms-transform: none;
+				transform: none;
+				opacity: 0;
+            }
+            .is-inactive-bottom {
+                -moz-transform: none;
+				-webkit-transform: none;
+				-ms-transform: none;
+				transform: none;
+				opacity: 0;
+            }
+            .is-inactive-passive {
+                -moz-transform: none;
+				-webkit-transform: none;
+				-ms-transform: none;
+				transform: none;
+				opacity: 0;
+            }
 
 		}
 
