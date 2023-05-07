@@ -152,9 +152,9 @@
 
     // Fade in.
 		$('.fadeIn').scrollex({
-			top:		'30vh',
-			bottom:		'30vh',
-			delay:		25,
+			top:		'20vh',
+			bottom:		'20vh',
+			delay:		20,
 			initialize:	function() {
 				$(this).addClass('is-inactive');
 			},
@@ -167,9 +167,9 @@
 		});
     // Fade in from left.
 		$('.fadeInLeft').scrollex({
-			top:		'30vh',
-			bottom:		'30vh',
-			delay:		25,
+			top:		'15vh',
+			bottom:		'15vh',
+			delay:		20,
 			initialize:	function() {
 				$(this).addClass('is-inactive-left');
 			},
@@ -182,8 +182,8 @@
 		});
     // Fade in from bottom.
 		$('.fadeInBot').scrollex({
-			top:		'30vh',
-			bottom:		'30vh',
+			top:		'5vh',
+			bottom:		'5vh',
 			delay:		25,
 			initialize:	function() {
 				$(this).addClass('is-inactive-bottom');
@@ -197,8 +197,8 @@
 		});
     // Fade in without transform.
 		$('.fadeInOnly').scrollex({
-			top:		'30vh',
-			bottom:		'30vh',
+			top:		'15vh',
+			bottom:		'15vh',
 			delay:		25,
 			initialize:	function() {
 				$(this).addClass('is-inactive-passive');
