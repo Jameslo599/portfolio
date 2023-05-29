@@ -250,10 +250,8 @@
     }
 
     .calendly-inline-widget {
-        max-height: 650px;
         width: 95%;
         overflow: hidden;
-        overflow-y: hidden;
         margin: 0 auto;
     }
 
