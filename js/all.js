@@ -497,7 +497,7 @@
     function init_parallax(){
     
         // Parallax        
-        if (($(window).width() >= 300)) {
+        if (($(window).width() >= 1024) && (mobileTest == false) && $("html").hasClass("no-touch")) {
             $(".parallax-1").parallax("50%", 0.1);
             $(".parallax-2").parallax("50%", 0.2);
             $(".parallax-3").parallax("50%", 0.3);
