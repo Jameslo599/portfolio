@@ -245,6 +245,10 @@
   
 @media only screen and (max-width: 768px) {
 
+    .calendly-inline-widget {
+        min-height: 1050px;
+    }
+
     .hs-wrap {
         max-width: 400px;
     }
