@@ -249,6 +249,7 @@
         min-height: 800px;
         width: 95%;
         overflow: hidden;
+        margin: 0 auto;
     }
 
     .hs-wrap {
@@ -851,9 +852,6 @@
   
 .mobile .page-section, .mobile .home-section, .mobile .small-section{
     background-attachment: initial;
-    height: 100%;
-    overflow: scroll;
-    width: 100%;
 }
 
 /*
