@@ -844,7 +844,7 @@
    ============================== */
   
 .mobile .page-section, .mobile .home-section, .mobile .small-section{
-    background-attachment:fixed;
+    background-attachment:scroll;
 }
 
 /*
