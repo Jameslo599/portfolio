@@ -4285,8 +4285,8 @@ section:hover .small-item-carousel .owl-next{
 }
 
 .banner-section {
-    border-top: 1px solid #111;
-    border-bottom: 1px solid #111;
+    border-top: 0.5px solid #50505075;
+    border-bottom: 0.5px solid #50505075;
 }
 .banner-content {
     background-color: #000000c0;
