@@ -4279,6 +4279,9 @@ section:hover .small-item-carousel .owl-next{
 }
 
 /* Custom Code */
+.calendly-inline-widget {
+    overflow: hidden;
+}
 
 #about {
     background-color: #111;
