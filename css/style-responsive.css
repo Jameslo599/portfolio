@@ -849,10 +849,6 @@
   
 .mobile .page-section, .mobile .home-section, .mobile .small-section{
     background-attachment: initial;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
     height: 100%;
 }
 
