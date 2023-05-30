@@ -853,9 +853,9 @@
    IOS Background Fix
    ============================== */
   
-/* .mobile .page-section, .mobile .home-section, .mobile .small-section{
-    background-attachment: scroll;
-} */
+.mobile .page-section, .mobile .home-section, .mobile .small-section{
+    height: 900px;
+}
 
 /*
  * iPad Pro
