@@ -854,10 +854,7 @@
    ============================== */
   
 .mobile .page-section, .mobile .home-section, .mobile .banner-section{
-    -webkit-background-size: auto;
-    -moz-background-size: auto;
-    -o-background-size: auto;
-    background-size: auto;
+    
 }
 
 /*
