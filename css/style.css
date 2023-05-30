@@ -1049,12 +1049,12 @@ a.btn-mod:focus{
  */
 
 .home-section{
+    background: url(/images/bg.webp) 50% 0 no-repeat fixed;
     width: 100%;
     display: block;    
     position: relative;
     overflow: hidden;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -2062,13 +2062,19 @@ a.logo:hover{
  * Common
  */
 
-.page-section,
-.small-section{
+.banner-section{
+    background: url(/images/celes.png) 50% 0 no-repeat fixed;
+}
+
+.fullwidth-slider{
+    background: url(/images/firion.webp) 50% 0 no-repeat fixed;
+}
+
+.small-section, .page-section{
     width: 100%;
     display: block;    
     position: relative;
     overflow: hidden;
-    background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center center;
     
@@ -2105,9 +2111,6 @@ a.logo:hover{
 }
 .small-title.white{
     color: #fff;
-}
-.bg-scroll{
-    background-attachment: scroll !important;
 }
 .bg-pattern{
     background-repeat: repeat;
@@ -2513,67 +2516,6 @@ a.logo:hover{
 .fixed-height-small{
     min-height: 600px;
 }
-
-
-/*
- * Split section
- */
-
-.split-section{
-    width: 100%;
-    display: block;    
-    position: relative;
-    overflow: hidden;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-.split-section-headings{    
-    width: 50%;
-    position: relative;
-    overflow: hidden;
-    text-align: center;
-    
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-.ssh-table{
-    width: 100%;
-    min-height: 500px;
-    display: table;
-}
-.ssh-cell{
-    display: table-cell;    
-    padding-left: 10px;
-    padding-right: 10px;
-    vertical-align: middle;
-    
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
-.split-section-content{
-    width: 50%;
-    position: relative;
-    overflow: hidden;
-    
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-.split-section-wrapper{
-    padding: 0 80px;
-}
-
 
 /* ==============================
    Alternative services
