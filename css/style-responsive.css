@@ -861,11 +861,11 @@
  * iPad Pro
  */
 
-/* @media only screen and (min-width: 1024px) and (max-height: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-height: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     html:not(.no-touch) .page-section, html:not(.no-touch) .home-section, html:not(.no-touch) .small-section{
-        background-attachment: scroll;
+        background-attachment: initial;
     }
-} */
+}
 
 
 /* ==============================
