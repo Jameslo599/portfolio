@@ -2060,11 +2060,6 @@ a.logo:hover{
 
 .banner-section{
     background: url(/images/celes.png) 50% 0 no-repeat fixed;
-    display: block;
-    position: fixed;
-    z-index: -1;
-    height: 100%;
-    width: 100%;
 }
 
 .fullwidth-slider{
@@ -2076,7 +2071,6 @@ a.logo:hover{
     display: block;    
     position: relative;
     overflow: hidden;
-    background-repeat: no-repeat;
     background-position: center center;
     
     -webkit-background-size: cover;
@@ -3197,7 +3191,7 @@ a.logo:hover{
    ============================== */
 
 .banner-section{
-    overflow: visible;
+    overflow: hidden;
     border-bottom: 1px solid transparent;
 }
 .banner-heading{
