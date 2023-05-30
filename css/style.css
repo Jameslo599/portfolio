@@ -2077,8 +2077,6 @@ a.logo:hover{
     background-size: cover;
     background-position: center right;
     background-image: url(/images/celes.png);
-    transform: translateZ(0);
-    will-change: transform;
   }
 
 .banner-section{
