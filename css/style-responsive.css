@@ -854,7 +854,7 @@
    ============================== */
   
 .mobile .page-section, .mobile .home-section, .mobile .small-section{
-    height: 900px;
+    background-attachment: initial;
 }
 
 /*
