@@ -2060,6 +2060,11 @@ a.logo:hover{
 
 .banner-section{
     background: url(/images/celes.png) 50% 0 no-repeat fixed;
+    display: block;
+    position: fixed;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
 }
 
 .fullwidth-slider{
