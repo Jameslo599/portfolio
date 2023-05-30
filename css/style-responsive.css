@@ -854,7 +854,7 @@
    ============================== */
   
 .mobile .page-section, .mobile .home-section, .mobile .banner-section{
-    
+    background-attachment: scroll;
 }
 
 /*
