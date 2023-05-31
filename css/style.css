@@ -2076,7 +2076,7 @@ a.logo:hover{
     height: 100vh;
     background-size: cover;
     background-position: center right;
-    background-image: url(/images/celes.png);
+    background-image: url(/images/celes.webp);
     transform: translateZ(0);
     will-change: transform;
 }
