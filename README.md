@@ -10,7 +10,7 @@ This is my Portfolio website to display my projects and for clients to learn mor
 
 **Tech used:** HTML, CSS, BootStrap, JavaScript, jQuery
 
-I am proud to say that my current work is my best yet! I utilized jQuery and Bootstrap to create visually appealing designs and animations to ensure my website makes a great first impression. For simplicity, I chose a single-page layout.
+I utilized jQuery and Bootstrap to create visually appealing designs and animations to ensure my website makes a great first impression. For simplicity, I chose a single-page layout.
 
 Upon entering the site, the user will see a loading screen before arriving at the landing section. In the intro section, the h1 header morphs between three different options, and clicking the menu and CTA buttons trigger a smooth scroll effect for navigation. Scrolling further down, the site features various quotes purely for aesthetic purposes. In the services section, there are five icons that alter the text to describe their respective services. My portfolio section showcases all of my work with categories for easy sorting. Clicking a category will cause the projects to fade in and out and move towards the beginning if possible.
 
