@@ -1,4 +1,4 @@
-# My Awesome Project
+# Portfolio
 
 This is my Portfolio website to display my projects and for clients to learn more about my freelance business.
 
