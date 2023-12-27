@@ -288,9 +288,6 @@ textarea {
 }
 
 @media screen and (max-width: 480px) {
-  .logo {
-    width: 30px;
-  }
   .inner img {
     width: 200px;
   }
@@ -3726,6 +3723,12 @@ body.is-menu-visible #menu .inner {
   font-weight: 200;
   letter-spacing: 0.1em;
   line-height: 2;
+}
+
+@media screen and (min-width: 1680px) {
+  .logo {
+    width: 90px;
+  }
 }
 
 @media screen and (max-width: 1280px) {
